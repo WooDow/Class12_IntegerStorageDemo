@@ -12,8 +12,12 @@
      FileInputStream 物件，再使用此物件讀取檔案
      
  4.常用的方法
+ 
      (1). getFilesDir()：會回傳 File 物件，表示內存的路徑 return absolute path
+     
      (2). getDir()：建立或開啟一個在內存路徑下的資料夾，回傳 File 物件
+     
      (3). fileList()：列出內存路徑下的所有檔案及資料夾，回傳 String[] 物件
+     
      (4). deleteFile()：刪除一個在內存路徑下的檔案，回傳 boolean
 
